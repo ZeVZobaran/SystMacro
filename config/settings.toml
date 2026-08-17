@@ -1,0 +1,210 @@
+[project]
+name = "SystMacro FX Factor Dashboard"
+base_currency = "USD"
+analysis_numeraire = "equal_weight_currency_basket"
+start_date = "1995-01"
+
+[data]
+xru_url = "https://data.bis.org/static/bulk/WS_XRU_csv_flat.zip"
+eer_url = "https://data.bis.org/static/bulk/WS_EER_csv_flat.zip"
+policy_url = "https://data.bis.org/static/bulk/WS_CBPOL_csv_flat.zip"
+raw_dir = "data/raw"
+processed_dir = "data/processed"
+max_monthly_staleness_days = 75
+
+[factors]
+momentum_months = 3
+value_lookback_months = 60
+value_smoothing_months = 6
+leg_fraction = 0.3333333333
+minimum_currencies = 6
+
+[loadings]
+rolling_window_months = 60
+minimum_observations = 48
+hac_lags = 3
+
+[forecast]
+horizon_months = 12
+max_ar_order = 2
+max_ma_order = 2
+minimum_observations = 60
+
+[universe.USD]
+area = "US"
+name = "US dollar"
+market = "DM"
+factor_eligible = true
+
+[universe.EUR]
+area = "XM"
+name = "Euro"
+market = "DM"
+factor_eligible = true
+
+[universe.JPY]
+area = "JP"
+name = "Japanese yen"
+market = "DM"
+factor_eligible = true
+
+[universe.GBP]
+area = "GB"
+name = "Pound sterling"
+market = "DM"
+factor_eligible = true
+
+[universe.CHF]
+area = "CH"
+name = "Swiss franc"
+market = "DM"
+factor_eligible = true
+
+[universe.AUD]
+area = "AU"
+name = "Australian dollar"
+market = "DM"
+factor_eligible = true
+
+[universe.CAD]
+area = "CA"
+name = "Canadian dollar"
+market = "DM"
+factor_eligible = true
+
+[universe.SEK]
+area = "SE"
+name = "Swedish krona"
+market = "DM"
+factor_eligible = true
+
+[universe.NZD]
+area = "NZ"
+name = "New Zealand dollar"
+market = "DM"
+factor_eligible = true
+
+[universe.NOK]
+area = "NO"
+name = "Norwegian krone"
+market = "DM"
+factor_eligible = true
+
+[universe.DKK]
+area = "DK"
+name = "Danish krone"
+market = "DM"
+factor_eligible = true
+
+[universe.CNY]
+area = "CN"
+name = "Chinese renminbi"
+market = "EM"
+factor_eligible = true
+
+[universe.HKD]
+area = "HK"
+name = "Hong Kong dollar"
+market = "EM"
+factor_eligible = true
+
+[universe.INR]
+area = "IN"
+name = "Indian rupee"
+market = "EM"
+factor_eligible = true
+
+[universe.KRW]
+area = "KR"
+name = "South Korean won"
+market = "EM"
+factor_eligible = true
+
+[universe.MXN]
+area = "MX"
+name = "Mexican peso"
+market = "EM"
+factor_eligible = true
+
+[universe.BRL]
+area = "BR"
+name = "Brazilian real"
+market = "EM"
+factor_eligible = true
+
+[universe.ZAR]
+area = "ZA"
+name = "South African rand"
+market = "EM"
+factor_eligible = true
+
+[universe.PLN]
+area = "PL"
+name = "Polish zloty"
+market = "EM"
+factor_eligible = true
+
+[universe.IDR]
+area = "ID"
+name = "Indonesian rupiah"
+market = "EM"
+factor_eligible = true
+
+[universe.TRY]
+area = "TR"
+name = "Turkish lira"
+market = "EM"
+factor_eligible = true
+
+[universe.THB]
+area = "TH"
+name = "Thai baht"
+market = "EM"
+factor_eligible = true
+
+[universe.ILS]
+area = "IL"
+name = "Israeli new shekel"
+market = "EM"
+factor_eligible = true
+
+[universe.HUF]
+area = "HU"
+name = "Hungarian forint"
+market = "EM"
+factor_eligible = true
+
+[universe.CZK]
+area = "CZ"
+name = "Czech koruna"
+market = "EM"
+factor_eligible = true
+
+[universe.CLP]
+area = "CL"
+name = "Chilean peso"
+market = "EM"
+factor_eligible = true
+
+[universe.PHP]
+area = "PH"
+name = "Philippine peso"
+market = "EM"
+factor_eligible = true
+
+[universe.COP]
+area = "CO"
+name = "Colombian peso"
+market = "EM"
+factor_eligible = true
+
+[universe.MYR]
+area = "MY"
+name = "Malaysian ringgit"
+market = "EM"
+factor_eligible = true
+
+[base_rate]
+currency = "USD"
+area = "US"
+name = "US dollar"

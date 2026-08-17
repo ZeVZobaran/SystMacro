@@ -1,0 +1,26 @@
+{
+  "xru": {
+    "url": "https://data.bis.org/static/bulk/WS_XRU_csv_flat.zip",
+    "etag": "W/\"9d30dc-19ff4f68907\"",
+    "last_modified": "Wed, 12 Aug 2026 07:53:45 GMT",
+    "downloaded_at_utc": "2026-08-13T18:37:24.714151+00:00",
+    "checked_at_utc": "2026-08-13T18:37:24.714151+00:00",
+    "bytes": 10301660
+  },
+  "eer": {
+    "url": "https://data.bis.org/static/bulk/WS_EER_csv_flat.zip",
+    "etag": "W/\"648616-19ff4f65a94\"",
+    "last_modified": "Wed, 12 Aug 2026 07:53:33 GMT",
+    "downloaded_at_utc": "2026-08-13T18:37:30.929393+00:00",
+    "checked_at_utc": "2026-08-13T18:37:30.929393+00:00",
+    "bytes": 6587926
+  },
+  "policy": {
+    "url": "https://data.bis.org/static/bulk/WS_CBPOL_csv_flat.zip",
+    "etag": "W/\"3e95d8-19ff4f602d3\"",
+    "last_modified": "Wed, 12 Aug 2026 07:53:11 GMT",
+    "downloaded_at_utc": "2026-08-13T18:37:40.948882+00:00",
+    "checked_at_utc": "2026-08-13T18:37:40.948882+00:00",
+    "bytes": 4101592
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "pipeline_version": "0.1.0",
+  "generated_at_utc": "2026-08-13T18:40:44.310131+00:00",
+  "latest_market_date": "2026-07-31",
+  "latest_complete_factor_date": "2026-07-31",
+  "universe": [
+    "USD",
+    "EUR",
+    "JPY",
+    "GBP",
+    "CHF",
+    "AUD",
+    "CAD",
+    "SEK",
+    "NZD",
+    "NOK",
+    "DKK",
+    "CNY",
+    "HKD",
+    "INR",
+    "KRW",
+    "MXN",
+    "BRL",
+    "ZAR",
+    "PLN",
+    "IDR",
+    "TRY",
+    "THB",
+    "ILS",
+    "HUF",
+    "CZK",
+    "CLP",
+    "PHP",
+    "COP",
+    "MYR"
+  ],
+  "universe_size": 29,
+  "market_counts": {
+    "EM": 18,
+    "DM": 11
+  },
+  "data_quote_currency": "USD",
+  "analysis_numeraire": "equal_weight_currency_basket",
+  "data_provider": "Bank for International Settlements",
+  "carry_proxy": "lagged central-bank policy rate; returns use basket-relative rate carry",
+  "factor_names": [
+    "dollar",
+    "carry",
+    "value",
+    "momentum"
+  ],
+  "files": {
+    "market_panel.csv": {
+      "rows": 10991,
+      "sha256": "d24802401d48b875106f5993969666f30d1971a2859f4a17f3e48455a829205e"
+    },
+    "currency_panel.csv": {
+      "rows": 10991,
+      "sha256": "28eb3539f42f6da09f526da822b7280fcb38002680645c15ad7ce31ce81e0536"
+    },
+    "factor_returns.csv": {
+      "rows": 379,
+      "sha256": "1428a9707a4b3f8be6cbd60c9efea104a297cec9a78cb51edd2c1eff06643bcc"
+    },
+    "factor_weights.csv": {
+      "rows": 28534,
+      "sha256": "184fe23d74060650bdf90661fb13f169c47eb509f648dbbae51b4c9eb4599349"
+    },
+    "factor_loadings.csv": {
+      "rows": 29,
+      "sha256": "153e299946efc900ad5a83e22a56a9bc65ac50a91353512eff09d1e963f1dc48"
+    },
+    "rolling_loadings.csv": {
+      "rows": 7162,
+      "sha256": "282adc5a3e534e086b561f07fb53be2c6bb0ad44a9a754a2bda530c10acd0bb6"
+    },
+    "factor_forecasts.csv": {
+      "rows": 48,
+      "sha256": "de735f0d4f6ffce5cc0a948a32dbb0a60350f679377f8418c989f366f14b070b"
+    },
+    "factor_performance.csv": {
+      "rows": 4,
+      "sha256": "4c012acf39253a8aac3bab9f7eff32f4e5fdc8dc631acd2363bf31e23a44e8fe"
+    },
+    "data_quality.csv": {
+      "rows": 29,
+      "sha256": "b7b25a28fb0d317a2ae8666d3aa8f7cdc4a7a62a040b3c18fcab94126bd7d430"
+    }
+  }
+}
