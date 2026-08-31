@@ -1,6 +1,6 @@
 {
   "pipeline_version": "0.1.0",
-  "generated_at_utc": "2026-08-24T11:44:39.644385+00:00",
+  "generated_at_utc": "2026-08-31T18:01:53.842911+00:00",
   "latest_market_date": "2026-07-31",
   "latest_complete_factor_date": "2026-07-31",
   "universe": [
@@ -84,7 +84,7 @@
     },
     "data_quality.csv": {
       "rows": 29,
-      "sha256": "b59082b2c3e85355cb82452cf433bba36c11e6e2edbaa3cd7860b46bfc83ba85"
+      "sha256": "4987a6be35d6eaabf48cdaef334449bdefd01b4a0b9eee3db8b4540bf30c8bea"
     }
   }
 }
