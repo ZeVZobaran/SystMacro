@@ -1,8 +1,8 @@
 {
   "pipeline_version": "0.1.0",
-  "generated_at_utc": "2026-08-31T18:01:53.842911+00:00",
-  "latest_market_date": "2026-07-31",
-  "latest_complete_factor_date": "2026-07-31",
+  "generated_at_utc": "2026-09-07T16:28:14.043024+00:00",
+  "latest_market_date": "2026-08-31",
+  "latest_complete_factor_date": "2026-08-31",
   "universe": [
     "USD",
     "EUR",
@@ -51,40 +51,40 @@
   ],
   "files": {
     "market_panel.csv": {
-      "rows": 10991,
-      "sha256": "9ef844dfb5915ce52278a3087c69d08249b8163297d78bf12f59954c0280f5ca"
+      "rows": 11019,
+      "sha256": "7f6b8af963af2e05d01b0ceb033c809e9ef75b96993bf71428e8d1b6d576e27d"
     },
     "currency_panel.csv": {
-      "rows": 10991,
-      "sha256": "419ef84909ee14c6544b4beb4ecfd44cf3d80c18aaf2b76642ff0ab43dada1a4"
+      "rows": 11020,
+      "sha256": "6f8d6d987cecca7b64300e2e127c1b0148e44b1452a2816940a56a43300d4dbf"
     },
     "factor_returns.csv": {
-      "rows": 379,
-      "sha256": "8cb48c31baaa9d379b362f92db7415f3badf41a9027ef8c7c08a54b0927e55d1"
+      "rows": 380,
+      "sha256": "7fe4ad3a2f0d0a6d8bdf57e43a9aee5ce81e879dd62fa45df00d857219400d97"
     },
     "factor_weights.csv": {
-      "rows": 28534,
-      "sha256": "e789c8b128bfce54345a8e1e0bed99cb86954d146db8cbfdc35df12922b1c826"
+      "rows": 28616,
+      "sha256": "88cd77deca480df8c698d134ffc43e291bbcb617fd9998fa1f55c6ccc9857553"
     },
     "factor_loadings.csv": {
       "rows": 29,
-      "sha256": "ddfbfca39dd9d731f462bfd4c859ce375937f02450e5f24b264a0d32685d4a14"
+      "sha256": "4889ac0d91cc7ec708bfec765e4b0e2d30578c4bf046e9ad92c6b7c263f69141"
     },
     "rolling_loadings.csv": {
-      "rows": 7162,
-      "sha256": "116293f8540023dfbcbc3197f5d8e44055d91280c3f2d9cfcb27bf28fb066ef4"
+      "rows": 7190,
+      "sha256": "c6e7c06ca5d85557b72324ebf3cfc1acab1f153acee2e2e184aedef23a29782d"
     },
     "factor_forecasts.csv": {
       "rows": 48,
-      "sha256": "da76a1ac6e0002901b7862e31c72913e4009e826429bc2a7180463f04e4297f9"
+      "sha256": "fb01851df7ee81543638d081d0c0769b876b2c997fd011c8718551335a246888"
     },
     "factor_performance.csv": {
       "rows": 4,
-      "sha256": "138c7686d0825c3c10d3f0e4f3a5a6e7dc9cef6d518d39d77c512e643a09357d"
+      "sha256": "99277bdf358df8967cf30f42eae4a2dd02dbb4c251882a7c4bf154d2274c3067"
     },
     "data_quality.csv": {
       "rows": 29,
-      "sha256": "4987a6be35d6eaabf48cdaef334449bdefd01b4a0b9eee3db8b4540bf30c8bea"
+      "sha256": "be644462acfa8f648361d3cad543d619b0c30b9c432219deb58766476d862b8a"
     }
   }
 }
