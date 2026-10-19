@@ -1,26 +1,26 @@
 {
   "xru": {
     "url": "https://data.bis.org/static/bulk/WS_XRU_csv_flat.zip",
-    "etag": "W/\"9db175-1a12ea490a4\"",
-    "last_modified": "Mon, 12 Oct 2026 05:44:59 GMT",
-    "downloaded_at_utc": "2026-10-12T20:17:31.103495+00:00",
-    "checked_at_utc": "2026-10-12T20:17:31.103516+00:00",
-    "bytes": 10334581
+    "etag": "W/\"9db66a-1a13a0fb234\"",
+    "last_modified": "Wed, 14 Oct 2026 10:57:49 GMT",
+    "downloaded_at_utc": "2026-10-19T17:28:19.273130+00:00",
+    "checked_at_utc": "2026-10-19T17:28:19.273148+00:00",
+    "bytes": 10335850
   },
   "eer": {
     "url": "https://data.bis.org/static/bulk/WS_EER_csv_flat.zip",
-    "etag": "W/\"64f806-1a115c1a4a1\"",
-    "last_modified": "Wed, 07 Oct 2026 09:46:14 GMT",
-    "downloaded_at_utc": "2026-10-12T20:17:36.190297+00:00",
-    "checked_at_utc": "2026-10-12T20:17:36.190318+00:00",
-    "bytes": 6617094
+    "etag": "W/\"650930-1a13a0f6058\"",
+    "last_modified": "Wed, 14 Oct 2026 10:57:28 GMT",
+    "downloaded_at_utc": "2026-10-19T17:28:25.680151+00:00",
+    "checked_at_utc": "2026-10-19T17:28:25.680168+00:00",
+    "bytes": 6621488
   },
   "policy": {
     "url": "https://data.bis.org/static/bulk/WS_CBPOL_csv_flat.zip",
-    "etag": "W/\"3f4af6-1a115c17ed1\"",
-    "last_modified": "Wed, 07 Oct 2026 09:46:04 GMT",
-    "downloaded_at_utc": "2026-10-12T20:17:42.189750+00:00",
-    "checked_at_utc": "2026-10-12T20:17:42.189772+00:00",
-    "bytes": 4147958
+    "etag": "W/\"3f28ec-1a13a0f9351\"",
+    "last_modified": "Wed, 14 Oct 2026 10:57:41 GMT",
+    "downloaded_at_utc": "2026-10-19T17:28:42.163753+00:00",
+    "checked_at_utc": "2026-10-19T17:28:42.163771+00:00",
+    "bytes": 4139244
   }
 }
