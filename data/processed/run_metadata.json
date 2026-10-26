@@ -1,6 +1,6 @@
 {
   "pipeline_version": "0.1.0",
-  "generated_at_utc": "2026-10-19T17:29:24.092325+00:00",
+  "generated_at_utc": "2026-10-26T17:24:08.983310+00:00",
   "latest_market_date": "2026-09-30",
   "latest_complete_factor_date": "2026-09-30",
   "universe": [
@@ -52,11 +52,11 @@
   "files": {
     "market_panel.csv": {
       "rows": 11049,
-      "sha256": "b0088669cea954ea7543758e15ab861ac8c6c2a8c4c3dedcdd89330bee9ff6d3"
+      "sha256": "3b1dfd4979bda268751f09cf2ed62eea9f5fd7b06adcf8789464f0b7ac88f54a"
     },
     "currency_panel.csv": {
       "rows": 11049,
-      "sha256": "204d685317c6ed7247d28b830235704249c7b65a2af5b93b124f9fe216abaa01"
+      "sha256": "fcaed676314088884b9b8915e46660d7f68df9789e7dd33112966c560d27f8a0"
     },
     "factor_returns.csv": {
       "rows": 381,
@@ -64,7 +64,7 @@
     },
     "factor_weights.csv": {
       "rows": 28700,
-      "sha256": "41f7205cb7153e0746ede264ec80b4edd604d828cf38ff0ee54544c953007ca6"
+      "sha256": "1913ea1285bba1b1006f670ee58ae10e40094d3a471871c8448791f73a2f2654"
     },
     "factor_loadings.csv": {
       "rows": 29,
@@ -84,7 +84,7 @@
     },
     "data_quality.csv": {
       "rows": 29,
-      "sha256": "968928f1f4f4d9578279f0dca8b75a7e13bcd5b38165c51a7c5839338f43de92"
+      "sha256": "eb0709284a1df370159ef2db769a204dd8eb44aad3701b0fb8fda95d3d5070f1"
     }
   }
 }
