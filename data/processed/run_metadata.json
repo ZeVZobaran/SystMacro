@@ -1,6 +1,6 @@
 {
   "pipeline_version": "0.1.0",
-  "generated_at_utc": "2026-11-09T21:26:59.361122+00:00",
+  "generated_at_utc": "2026-11-16T21:02:48.305697+00:00",
   "latest_market_date": "2026-10-31",
   "latest_complete_factor_date": "2026-10-31",
   "universe": [
@@ -72,7 +72,7 @@
     },
     "rolling_loadings.csv": {
       "rows": 7249,
-      "sha256": "9d4b3ff953d32e3d39173eff5d4646a2c673ad51c14b539104efbabc2d6e6bc2"
+      "sha256": "3598bcf10b7b54206cd134659c68e1e9c9a7a739968e6e67c9def8b778edfbfc"
     },
     "factor_forecasts.csv": {
       "rows": 48,
@@ -84,7 +84,7 @@
     },
     "data_quality.csv": {
       "rows": 29,
-      "sha256": "2cb7e85af326c3ce993c7c5d8a031a1baf847c7c3885e3884148f530edf094d8"
+      "sha256": "268f9fc019796b36dc7e3e26b4f8a9241611264700ff8e01a4b65637c1758d7f"
     }
   }
 }
