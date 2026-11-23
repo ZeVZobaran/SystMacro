@@ -1,6 +1,6 @@
 {
   "pipeline_version": "0.1.0",
-  "generated_at_utc": "2026-11-16T21:02:48.305697+00:00",
+  "generated_at_utc": "2026-11-23T22:38:31.584726+00:00",
   "latest_market_date": "2026-10-31",
   "latest_complete_factor_date": "2026-10-31",
   "universe": [
@@ -52,11 +52,11 @@
   "files": {
     "market_panel.csv": {
       "rows": 11078,
-      "sha256": "8a54a8c7c0f41a667a00d073a9b259f8aa55005e6300cd703750c7c7da30770f"
+      "sha256": "7dcdfd79a649909a9aa59868bfaf34c4730d40ba5c88c25c850e9d3cd586fa85"
     },
     "currency_panel.csv": {
       "rows": 11078,
-      "sha256": "61c0b9bf8726ed63709457c6002ac2b45fd455c84694b78a56d40345c49efe42"
+      "sha256": "3cbe353f642e015dc7dee20aa96c02c9e8f78b9158dd002fc822fdd8c176bf7b"
     },
     "factor_returns.csv": {
       "rows": 382,
@@ -64,7 +64,7 @@
     },
     "factor_weights.csv": {
       "rows": 28783,
-      "sha256": "dab3fe300dda4cf0f5969a7cb5ad86dd6af3866d092f8936588384b69d04665c"
+      "sha256": "9bd5100e0e7d3fd048fe88ca602c21476c80dcc645c59f34f2d16ed8ad4fc938"
     },
     "factor_loadings.csv": {
       "rows": 29,
@@ -72,7 +72,7 @@
     },
     "rolling_loadings.csv": {
       "rows": 7249,
-      "sha256": "3598bcf10b7b54206cd134659c68e1e9c9a7a739968e6e67c9def8b778edfbfc"
+      "sha256": "9d4b3ff953d32e3d39173eff5d4646a2c673ad51c14b539104efbabc2d6e6bc2"
     },
     "factor_forecasts.csv": {
       "rows": 48,
@@ -84,7 +84,7 @@
     },
     "data_quality.csv": {
       "rows": 29,
-      "sha256": "268f9fc019796b36dc7e3e26b4f8a9241611264700ff8e01a4b65637c1758d7f"
+      "sha256": "a3cdae8225e9ca11b5b3cd6d03c43afa2a49b1c6573bf371f3121a0b7c0dad5a"
     }
   }
 }
